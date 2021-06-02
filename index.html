@@ -1,0 +1,755 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link
+         rel="stylesheet"
+         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+         integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+         crossorigin="anonymous"
+         referrerpolicy="no-referrer"
+      />
+      <link
+         rel="stylesheet"
+         href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+         crossorigin="anonymous"
+      />
+      <link
+         rel="stylesheet"
+         href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+         integrity="sha512-Velp0ebMKjcd9RiCoaHhLXkR1sFoCCWXNp6w4zj1hfMifYB5441C+sKeBl/T/Ka6NjBiRfBBQRaQq65ekYz3UQ=="
+         crossorigin="anonymous"
+         referrerpolicy="no-referrer"
+      />
+      <link rel="stylesheet" href="/css/style.css" />
+      <title>Bootstrap Theme</title>
+   </head>
+   <body>
+      <!-- NAVBAR  -->
+      <nav class="navbar navbar-expand-sm fixed-top navbar-dark" id="main-nav">
+         <div class="container">
+            <a class="navbar-brand" href="#showcase">SAFI SOLUCAN</a>
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+               <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+               <ul class="navbar-nav ml-auto">
+                  <li class="nav-item">
+                     <a href="#showcase" class="nav-link">Ana Sayfa</a>
+                  </li>
+                  <li class="nav-item">
+                     <a href="#video-play" class="nav-link">Hakkımızda</a>
+                  </li>
+                  <li class="nav-item">
+                     <a href="#main-footer" class="nav-link">Bize Ulaşın</a>
+                  </li>
+               </ul>
+            </div>
+         </div>
+      </nav>
+
+      <!-- CAROUSEL -->
+      <section id="showcase">
+         <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+               <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+               <li data-target="#myCarousel" data-slide-to="1"></li>
+               <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+               <div class="carousel-item carousel-image-1 active">
+                  <div class="container">
+                     <div class="carousel-caption d-none d-sm-block text-right mb-5">
+                        <h1 class="display-3">Bütüncül Tarım</h1>
+                        <p class="lead">
+                           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt quisquam, porro incidunt minus
+                           similique reprehenderit? Tempora, fugit soluta. Incidunt, rem?
+                        </p>
+                        <!-- <a href="#video-play" class="btn btn-md btn-success">Keşfet</a> -->
+                     </div>
+                  </div>
+               </div>
+
+               <div class="carousel-item carousel-image-2">
+                  <div class="container">
+                     <div class="carousel-caption d-none d-sm-block mb-5">
+                        <h1 class="display-3">Solucan Gübresi</h1>
+                        <p class="lead">
+                           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt quisquam, porro incidunt minus
+                           similique reprehenderit? Tempora, fugit soluta. Incidunt, rem?
+                        </p>
+                        <!-- <a href="#video-play" class="btn btn-md btn-success">Keşfet</a> -->
+                     </div>
+                  </div>
+               </div>
+
+               <div class="carousel-item carousel-image-3">
+                  <div class="container">
+                     <div class="carousel-caption d-none d-sm-block text-right mb-5">
+                        <h1 class="display-3">Doğayı Kurtar</h1>
+                        <p class="lead">
+                           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt quisquam, porro incidunt minus
+                           similique reprehenderit? Tempora, fugit soluta. Incidunt, rem?
+                        </p>
+                        <!-- <a href="#video-play" class="btn btn-md btn-success">Keşfet</a> -->
+                     </div>
+                  </div>
+               </div>
+            </div>
+
+            <!-- Controllers -->
+            <a href="#myCarousel" data-slide="prev" class="carousel-control-prev">
+               <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a href="#myCarousel" data-slide="next" class="carousel-control-next">
+               <span class="carousel-control-next-icon"></span>
+            </a>
+         </div>
+      </section>
+
+      <!-- HOME ICON Section  -->
+      <section id="home-icons" class="py-5">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-4 mb-4 text-center">
+                  <i class="fas fa-seedling fa-3x mb-2" style="color: green"></i>
+                  <h3>Ata Tohumu Urunler</h3>
+                  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum, debitis.</p>
+               </div>
+               <div class="col-md-4 mb-4 text-center">
+                  <i class="fas fa-campground fa-3x mb-2" style="color: green"></i>
+                  <h3>Kamp Alani</h3>
+                  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum, debitis.</p>
+               </div>
+               <div class="col-md-4 mb-4 text-center">
+                  <i class="fas fa-tree fa-3x mb-2" style="color: green"></i>
+                  <h3>Tamamen Doğa</h3>
+                  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum, debitis.</p>
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <!-- VIDEO PLAY -->
+      <section id="video-play">
+         <div class="dark-overlay">
+            <div class="row">
+               <div class="col">
+                  <div class="container p-5">
+                     <a
+                        href="#"
+                        class="video"
+                        data-video="https://www.youtube.com/embed/zQNaG_Jjunw"
+                        data-toggle="modal"
+                        data-target="#videoModal"
+                     >
+                        <i class="fas fa-play fa-3x" style="color: green"></i>
+                     </a>
+                     <h1>Düsüncelerimizi Öğren</h1>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <!-- PHOTO GALLERY -->
+      <section id="gallery" class="py-5">
+         <div class="container">
+            <h1 class="text-center">Galeri</h1>
+            <p class="text-center">Doğal yaşamı deneyim etmek istemezmisiniz?</p>
+            <div class="row mb-4">
+               <div class="col-md-4">
+                  <a
+                     href="./img/Dogal fotolar/1.jpg"
+                     data-toggle="lightbox"
+                     data-gallery="img-gallery"
+                     data-height="560"
+                     data-width="560"
+                  >
+                     <img class="img-fluid" src="./img/Dogal fotolar/1.jpg" alt="" />
+                  </a>
+               </div>
+               <div class="col-md-4">
+                  <a
+                     href="./img/Dogal fotolar/2.jpg"
+                     data-toggle="lightbox"
+                     data-gallery="img-gallery"
+                     data-height="560"
+                     data-width="560"
+                  >
+                     <img class="img-fluid" src="./img/Dogal fotolar/2.jpg" alt="" />
+                  </a>
+               </div>
+               <div class="col-md-4">
+                  <a
+                     href="./img/Dogal fotolar/3.jpg"
+                     data-toggle="lightbox"
+                     data-gallery="img-gallery"
+                     data-height="560"
+                     data-width="560"
+                  >
+                     <img class="img-fluid" src="./img/Dogal fotolar/3.jpg" alt="" />
+                  </a>
+               </div>
+            </div>
+
+            <div class="row mb-4">
+               <div class="col-md-4">
+                  <a
+                     href="./img/Dogal fotolar/4.jpg"
+                     data-toggle="lightbox"
+                     data-gallery="img-gallery"
+                     data-height="560"
+                     data-width="560"
+                  >
+                     <img class="img-fluid" src="./img/Dogal fotolar/4.jpg" alt="" />
+                  </a>
+               </div>
+               <div class="col-md-4">
+                  <a
+                     href="./img/Dogal fotolar/5.jpg"
+                     data-toggle="lightbox"
+                     data-gallery="img-gallery"
+                     data-height="560"
+                     data-width="560"
+                  >
+                     <img class="img-fluid" src="./img/Dogal fotolar/5.jpg" alt="" />
+                  </a>
+               </div>
+               <div class="col-md-4">
+                  <a
+                     href="./img/Dogal fotolar/9.jpg"
+                     data-toggle="lightbox"
+                     data-gallery="img-gallery"
+                     data-height="560"
+                     data-width="560"
+                  >
+                     <img class="img-fluid" src="./img/Dogal fotolar/9.jpg" alt="" />
+                  </a>
+               </div>
+            </div>
+
+            <div class="row mb-4">
+               <div class="col-md-4">
+                  <a
+                     href="./img/Dogal fotolar/6.jpg"
+                     data-toggle="lightbox"
+                     data-gallery="img-gallery"
+                     data-height="560"
+                     data-width="560"
+                  >
+                     <img class="img-fluid" src="./img/Dogal fotolar/6.jpg" alt="" />
+                  </a>
+               </div>
+               <div class="col-md-4">
+                  <a
+                     href="./img/Dogal fotolar/7.jpg"
+                     data-toggle="lightbox"
+                     data-gallery="img-gallery"
+                     data-height="560"
+                     data-width="560"
+                  >
+                     <img class="img-fluid" src="./img/Dogal fotolar/7.jpg" alt="" />
+                  </a>
+               </div>
+               <div class="col-md-4">
+                  <a
+                     href="./img/Dogal fotolar/8.jpg"
+                     data-toggle="lightbox"
+                     data-gallery="img-gallery"
+                     data-height="560"
+                     data-width="560"
+                  >
+                     <img class="img-fluid" src="./img/Dogal fotolar/8.jpg" alt="" />
+                  </a>
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <section id="article">
+         <div class="dark-overlay">
+            <div class="row">
+               <div class="col">
+                  <!-- Button trigger modal -->
+                  <div class="button">
+                     <button type="button" class="btn btn-success btn-md" data-toggle="modal" data-target="#myModal">
+                        Makalemizi Incele
+                     </button>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <!-- FOOTER -->
+      <footer id="main-footer" class="text-center p-2">
+         <div class="container">
+            <div class="row">
+               <div class="col-sm-4">
+                  <h6>Ali Ihsan Ciftci</h6>
+                  <h6>20394823</h6>
+                  <h6 class="font-weight-bold">alihsan@gmail.com</h6>
+               </div>
+               <div class="col-sm-4">
+                  <h6>Gamer Temizsoy</h6>
+                  <h6>+90 512390 12390</h6>
+                  <h6 class="font-weight-bold">gtemizsoy@gmail.com</h6>
+               </div>
+               <div class="col-sm-4">
+                  <h6>Tufan Ciftci</h6>
+                  <h6>+90 555 821 2004</h6>
+                  <h6 class="font-weight-bold">tufan@gmail.com</h6>
+               </div>
+            </div>
+         </div>
+      </footer>
+
+      <!-- VIDEO MODAL -->
+      <div class="modal fade" id="videoModal">
+         <div class="modal-dialog">
+            <div class="modal-content">
+               <div class="modal-body">
+                  <button class="close" data-dismiss="modal">
+                     <span>&times;</span>
+                  </button>
+                  <iframe src="" frameborder="0" height="350" width="100%" allowfullscreen></iframe>
+               </div>
+            </div>
+         </div>
+      </div>
+
+      <!-- MultiPage Modal -->
+      <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+         <div class="modal-dialog" role="document">
+            <div class="modal-content">
+               <div class="modal-header">
+                  <h4 class="modal-title" id="myModalLabel">Makalemiz</h4>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                     <span aria-hidden="true">&times;</span>
+                  </button>
+               </div>
+
+               <div class="modal-body">
+                  <div class="modal-split">
+                     <h1>BÜTÜNCÜL TARIM ve İNSAN OLMAK</h1>
+                     <p>
+                        Başlık çok iddialı gelebilir sizlere. Merak etmeyin ne insanı kamilden ne teolojiden ne de
+                        kutsal metinlerden bahsetmeyeceğim bu yazıda. Hindistanda 200 bin Çiftçi neden intihar etti?
+                        Avrupada Çiftçiler neden intihar ediyorlar? ABD de 600 binden fazla çiftçi nasıl iflas ettirildi
+                        ? Eski CIA başkanı Wolseyin ülkemizdeki tavuk üretimine bu kadar odaklanmasının nedeni nedir
+                        vb.. Soruları çoğaltmak mümkün ..... Bu makale sonunda; 5 dönüm tarım arazisi olan bir
+                        çiftçinin, ayda 5.000 TL(BEŞBİNTL), yılda 60.000 TL (ALTMIŞBİNTL) kazanabileceğini ya da 30
+                        dönüm arazisi olan bir çiftçinin ayda 28.000 TL (YİRMİSEKİZBİNTL) yani yılda 336,000 TL
+                        (ÜÇYÜZOTUZALTI BİN TL) kazanabileceği üretim yöntemini ve tecrübelerimizle uyguladığımız
+                        bütüncül tarım yöntemini paylaşıyoruz. Çiftçiliğin, insanlığın en kadim, en onurlu ve doğası
+                        gereği en çok kazandıran mesleği olduğunu unutmamalıyız ve yaşam felsefenizin, TEKAMÜLÜMÜZÜN
+                        asli unsurunun hayra / barışa hizmet edecek bir değer üretmek olduğunu hatırlamalıyız. Bu
+                        çalışmada üretiminde hiçbir zehir istemeyen, ilaç sanayinin ana hammadesi olan kenevir
+                        üretiminden ya da sömürgecinin yıldızını parlattığı GDO'cu Çin'den bahsetmeyeceğiz. Sadece
+                        domates, biber ve patlıcandan bahsedeceğiz. Ancak sömürgecinin kenevir yerine pamuk sevdasının
+                        altında, toprağı zehirleme amacı olduğunu unutmamak gerekiyor. Bu makalede özet olarak;
+                        tarımdaki sorunların çözümünün ne kadar kolay olduğunu anlatacağız. Çözümsüz gibi görünen, bir
+                        sürü latince ve yabancı kavramlarla manipule edilen ve yıllarca insanları ve toprağı zehirleyen
+                        çoraklaştıran tarım ve hayvancılık sektörünün, aklımızı kullanınca ne kadar kolay bir iş ve çok
+                        kazançlı bir üretim sistemi olduğunu göreceğiz. Burada sorulması gereken; çiftçilerimiz bu gelir
+                        seviyesinde yaşayabilecekken ne oldu da arazilerinde üretim yapmaktan korkar oldular? Neden
+                        kırsal alandan kente sürekli bir göç yaşanıyor? Anadolu'nun buğday tenli vefakar insanları neden
+                        şehrin keşmekeşini tercih eder hale geldiler? Köyün öte tarafındaki komşusunun tarlasını
+                        koruyan, imece kültürünü bilip yaşayan bu insanlar nasıl oldu da apartmandaki karşı komuşusunu
+                        yolda görse tanımaz hale getirildiler? Şehitlerimizin kanlarını dökerek bizlere emanet ettikleri
+                        vatan topraklarımızı nasıl oldu da tarım zehirleri ile çoraklaştırdık? En acı olanı da bunu
+                        yaparken bir de bunun için üstüne para verdik. Ahiret inancı olanlara soruyorum; hak vaki olup
+                        öte aleme geçince şehitlerimize ne diyeceksiniz? Bize emanet edilen toprakları çoraklaştırdık,
+                        vatan topraklarının altını üstünü hiçbir canlıya acımadan sömürdük, kuşunu, böceğini, hayvanını,
+                        insanını zehirledik mi diyeceksiniz? Sömürgeci, organik karbondan ve organik azottan nefret
+                        eder. Nedeni bizce malum. Böcekler organik azot üretiminin en önemli kaynağıdır. Ne derdiniz var
+                        canlı yaşamının en önemli unsuru böceklerle? Taylorcu, Smithci, Friedmancı vahşi iktisat/ekonomi
+                        kurallarının uygulanabilmesi için, önce bilim hurafecileri ile insanların AKLINI kullanmasını
+                        engellemek gerekiyordu. Bunun için de hurafeci bir bilim üretilmeliydi ki insanlar bir şey
+                        öğreniyoruz derken cahil kalabilsinler! İktisat bilimini bir sürü içi boş kavramlarla
+                        doldurarak, içi boş, hurafeci bir bilim haline getirdiler. Bu konuları merak eden dostlar
+                        dilerlerse kaynak kitap önerilerinde bulunabilirim. Önceleri takas ekonomisi vardı ve israf
+                        mümkün değildi, sonra para geldi, hiçbir şey üretmeden paradan para kazanma dönemi başladı ve bu
+                        büyük bir insanlık sorununa dönüştü. 'Bir günde milyarder olabilirsin hayali!' satıldı insanlara
+                        ve medya ile de sürekli gündemde oldu birkaç şanslı (!) kişi. Ancak ne hikmetse bu sanal
+                        yaygara, dönemsel ekonomik krizlerin sonucu evi elinden alınan, sokağa atılan insanları hiçbir
+                        zaman duyurmadı. Borsa çıktı, borsa indi, endeksler, kaldıraçlar arasında haberler ile para her
+                        daim gündem oldu. 'Bir Ekonomik Tetikçi'nin İtirafları' adlı kitapta; eski bir CIA ajanı, insan
+                        onuruna yakışmayacak tüm ahlaksızlıklarını anlatıyor. Burada ahlaksız kelimesi hakaret için
+                        değil TESPİT için kullanılmış kibar bir ifadedir. Hurafeci bilim, hurafeci din ve hurafeci
+                        sanat; tüm bu süreçte medyanın cambazları oldular. Kısaca; ahlaksızlık yasal hale gelince
+                        ahlaksızlık olmaktan çıkmaz. Din,Felsefe, bilim, sanat, insanlık tarihinin en önemli değerleri
+                        oldular. Sömürgeci ve beslemeleri bu insanlık değerlerini hurafeci din, hurafeci bilim ve
+                        hurafeci sanat haline getirerek, insanlık suçunu maskelemeye devam ediyor ve insanlar cambaza
+                        bakarken, birileri habire 10 sentlik kağıtların üzerine 100 dolar yazmaya devam ediyor.
+                        Kapitalizm; ÜRÜNDEN kazanan kültürü, önce PARADAN kazanan kültürsüzlüğe dönüştürdü, sonra da
+                        YASADAN para kazanan sürece. Yasa ile para kazandırmama/ürettirmeme uygulamaları ile; insanlığı
+                        fakir, aç susuz bırakma vahşetinin tarım alanındaki kısıtlamalara dönüşmesinin en utanmaz
+                     </p>
+                  </div>
+
+                  <div class="modal-split">
+                     <p>
+                        örneklerinden biri de bazı ülkelerde kenevir üretiminin yasaklatılmasıdır. 1 dönüm kenevir
+                        tarlası, 25 dönüm ağaca eş miktarda oksijen üretirken, iklim sorununun baş suçlusu gösterilen
+                        metan gazının en önemli yok edicisi olan 'sanayi keneviri' sömürgeci tarafından suçlu ilan
+                        edildi! Pamuğun en önemli alternatifi kenevire tarım zehiri kullanmak gerekmezken, pamuk üretmek
+                        için en ağır tarım zeHirleri kullanıldı. O nedenle pamuk tarlalarında ne kuş ne de böcek
+                        göremezsiniz. Şayet tarım konusunda hata yapılırsa, ortada ne bilim, ne din, ne sanat ne de
+                        insanlık kalmayacağını anlamalıyız ve önce bunu idrak etmeliyiz. Bunun için de bütüncül tarım
+                        yaklaşımının önce insan sonra tüm canlılar ve aslında tüm gezegenimiz için olmazsa olmaz
+                        olduğunu rakamlarla göstereceğiz. Sömürgeciye karşı bir ÖMÜRGECİ faaliyetiniz yoksa, siz zaten
+                        bilerek ya da bilmeyerek, sömürgeci beslemesi olursunuz. Sömürgeci, sahip olduğu şeytani
+                        zekasıyla, insanlıkla ve ahlakla savaşacak gücü olmadığını ve ilahi sistemin daima CANLIDAN YANA
+                        tavır alacağını bilir. Bu nedenle, insanlığı sürü gibi güdebilmesi ve nihayetinde yok edebilmesi
+                        için, insan türü ile gezegeni ve diğer tüm canlıları birbirine düşman yapmalıydı. Bunun tek
+                        yöntemi de insan eli ile dünyayı ZEHİRLEMEKTİ! Maalesef bunu da özellikle son 100 yılda önemli
+                        ölçüde başardı. Tarım arazilerinin baş belası ve başa çıkılamayan zararlısı 'nematodun' artışı
+                        ile sentetik kimyasal gübrelerin kullanım miktarını tarihsel olarak karşılaştırınca ne demek
+                        istediğim ve nasıl bir gıda çıkmazına doğru sürüklendiğimiz anlaşılacaktır. Zehir eşittir
+                        hijyen, o da eşittir sağlık diye kandırıldık! Önce hayvanları , bakterileri ve virüsleri, vahşi
+                        gezegen belgeselleri ile düşmanımız ilan ettik. Bugün gelinen noktada ise cehaletimiz nedeni ile
+                        gezegenimize bilmeden açtığımız amansız savaşın kaybeden tarafı olarak hızla kendi sonumuzu
+                        hazırlıyoruz. Diğer tarafta sömürgeci, tüm arsızlığı ile “dünya nüfusu 500 milyonu geçmemeli!”
+                        diye oraya buraya taşlar dikerek tapındığı iğrenç egosunun sözde sanal tanrılığını ordan burdan
+                        toplama uydurma dinlerle , ünvanlı ünvansız beslemeleri ile tüm dünyaya ilan ettiriyor. Sonuç
+                        olarak; tüm barışçıl, şefkatli yaklaşımına rağmen, aymazlığımız nedeni ile sömürgecinin
+                        dolduruşuna gelerek zorla düşman haline getirdiğimiz gezegenimiz de üzerinde yaşayan insanları ,
+                        düşman ilan etmiş durumda ve haklı olarak kendi nefsi müdafaa dönemini başlattı. Hurafeci bilim,
+                        bir yandan inekleri küresel ısınmanın sebebi ve sorumlusu gösterip sonra da bunun adına 'iklim
+                        sorunu/küresel ısınma' diyor! Oysa konu, gezegenimizdeki insanlığın yok oluşu! Adını doğru
+                        koyalım. Bu muhteşem gezegene ne yaptığımızı anlamak için sadece son 100 yılda hurafeci bilim
+                        nedeni ile yok edilen, sakat kalan insanlara ve canlılara bakmamız yeterli. Bir zamanlar,
+                        çocukların başına bile DDT döken sözde bilim adamları ya da küçücük çocuklara kola içirmeyi
+                        tavsiye edenlerin gerçek yüzünü görmek zorundayız. Her 10 saniyede bu gezegende bir çocuk
+                        açlıktan ölürken, dünya gelirinin % 90'nına el koyan en zenginler listesinde yer alan 1000
+                        kişiyi oluşturan vicdansızlardan bahsetmeye gerek bile duymuyorum. Neyse sömürgeciye bu kadar
+                        zaman ayırmak yeterli. Zehirsiz tarım yani sağlıklı etken maddeye sahip GIDA, insanlık için
+                        güvenlik ve varlık sorunudur. Bunu anlamadıysanız ve şayet sağlıksız besleniyorsanız sağlıklı
+                        düşünme şansınız yok demektir. Sağlıklı düşünemeyen birinin adının önündeki ünvanlar ya da
+                        diplomasının da bir önemi yoktur. Adına büyük ödüller verilen Nobel'in işi bile dinamitçilikti !
+                        Daha ne anlatalım? Tabi ABD'deki 15 milyon aç insan sayısını 43 milyona çıkaran Friedman'a da
+                        ekonomi dalında nobel mükafatı verilmişti birileri tarafından bir zamanlar! Bir an önce,
+                        gezegenimiz ile koşulsuz barış anlaşmasını kabul etmek zorundayız. Bu barış anlaşmasının ilk ve
+                        en önemli maddesi sentetik kimyasal zehirleri hayatımızdan çıkarmaktır. Devam eden sayfalarda
+                        size bu barış anlaşmasının detaylarını ve uygulama yöntemlerini anlatacağız. Ancak bundan önce
+                        bir duyuru paylaşmak istiyorum ;
+                     </p>
+                  </div>
+
+                  <div class="modal-split">
+                     <h1>BÜTÜNCÜL TARIM NEDİR ?</h1>
+                     <p>
+                        Bütüncül tarım; üreticilerin herhangi bir ürün elde etmek için en az çaba ve sermaye ile en
+                        fazla geliri nasıl elde edebileceğini gösteren, dışardan girdi maliyetlerini en aza indiren,
+                        uygulaması bizler tarafından yapılmış, çok kolay ve kazançlı bir üretim yöntemidir. Bunun
+                        yapılabilmesi için ; 1-Tarım işletmesinin aynı zamanda hayvancılık işletmesi olması gereklidir.
+                        2-Sağlıklı etken maddesi ATA tohumlarına nazaran yok denecek seviyede olan kısır hibrit ve
+                        GDO'lu tohumlar kullanılmamalıdır. GDO demek bir canlının patentinin bir şahısa ya da şirkete
+                        ait olması demektir. Bir canlının patentini almak nasıl akıl almaz bir uygulamadır!? 3-Yerli ırk
+                        küçükbaş ve büyükbaş hayvanların, tarımsal üretim alanının en az onda biri kadar bir alana sahip
+                        olmaları gerekir. O arazi o canlıların hakkıdır ve tarım arazilerimizi onlarla paylaşmamız bir
+                        doğa kanunudur. Onlar da ağaçlarımız, bitkilerimiz gibi bizim dostlarımız ve mesai
+                        arkadaşlarımızdır. Bir yıl boyunca üretilen her değerden onlara da hakkını vermek zorundayız.
+                        Akıl ve ahlak bunu gerektirir. Mutsuz canlıların olduğu yerde bereket; bereketin olmadığı yerde
+                        insan olmaz, sömürgeci olur. Bir yandan çevremizi, hayvanları sömürüp sonra da küresel
+                        sömürgeciye laf atmak İKİYÜZLÜLÜKTÜR. 4-Kışın yağışlarla elde edilen su, havuzlarda
+                        biriktirilmelidir. Bu havuzlar, işleteceğiniz tarım alanınızın alanı x 10 ton su olarak
+                        düşünülmelidir. Yani 30 dönüm alanda üretim yapıyorsanız, 300 ton su biriktirmelisiniz. Bu su,
+                        sizin ve diğer canlıların kara gün dostu, can simidi olacaktır. 5-İster 10 dönüm, ister 100
+                        dönüm, ister 1000 dönüm tarım araziniz olsun, her üretim alanında 1 çeşit meyve olmak üzere en
+                        az 3 çeşit tarımsal ürün üretilmelidir. Yani 30 dönüm tarlası olan bir çiftçi, bunun 3 dönümünü
+                        büyükbaş ve küçükbaş hayvan yetiştirmeciliğine, 2 dönümünü alt yapı vb çalışmalar için (binalar,
+                        depolar, ürün işleme alanları, kişisel tüketim ürünleri vb) ayırmalıdır. Kalan 25 dönümün 5
+                        dönümünde bir tür meyve üretirken, 20 dönümde de ürün cinsine göre 3 çeşit satılabilir sebze
+                        üretmelidir. Örneğin 10 dönüm domates, 5 dönüm biber, 5 dönüm patlıcan gibi. Bu sayede herhangi
+                        bir üründe pazar sorunu veya bir başka sorun olursa diğer ürünlerinden kazanabilmelidir. Ürün
+                        çeşitliliği olan, ata tohumu kullanan çiftçi ne faiz batağına saplanır ne de tohumsuz kalır.
+                        6-Hayvanlara ait 3 dönüm arazinin; 100 metrekaresi solucan gübresi üretim alanı, 100 metrekaresi
+                        çatısı kapalı ahır, (Zemin toprak ve büyükbaş hayvanlar asla bağlı değil. 2 dönüm alanda serbest
+                        gezecekler. Bu sayede sağlıklı bir sürümüz olacak tohumlanma ve üreme tamamen doğal olacak. Bu
+                        sayede veteriner masrafları en az seviyede tutulabilecek.) 300 metrekaresi suda yetişen azola
+                        bitkisi ve mersin balığı havuzu olarak ayrılacak., 100 metrekaresi çimlendirme/haşıl alanı, 100
+                        metrekaresi ATA tohumundan fide üretim alanı olmalıdır. 100 metrekaresi şayet bağcılık
+                        yapmıyorsanız çardaklı üzüm bağı olmalıdır. 200 metrekaresi 50 tavuk ve başlangış için 3 keçiye
+                        ayrılmalıdır.. 7-Ev, depo vb alanından 500 metrekare nohut ekim alanı olarak ayrılmalıdır. Nohut
+                        üretiminde ilaç gübre istemeyen ender tahıl ürünlerimizdendir. 8-Elde edilen ürünlerin en az
+                        5'te biri mümkünse katma değerli ürünler olarak satışa sunulmalıdır. Örnek çiftliğimizde bunları
+                        detaylandıracağız. Domates üretiyorsanız üretilen domatesin % 20'sini salça, biber turşusu ya da
+                        domates kurusu olmalıdır. Pazara götüremediğimiz hasar görmüş sebzeler çöp olmak yerine onları
+                        salça vb ürünler haline getirmek sağlam sebzeler kadar hatta daha fazla kazandıracaktır. 9-Hasat
+                        sonu sebze fideleri asla yakılmamalı ya da çöp olmamalıdır. Hayvanların yemediği sebze fideleri
+                        Solucanlara yem olarak verilerek hiçbir gübrede olmayan mineral ve besin değerine sahip solucan
+                        gübresi elde edebilirsiniz. Domates fidesi önemli bir azot kaynağıdır ve solucanlarınıza
+                        vereceğiniz bu fideler sizin bir yıl sonraki bedava solucan gübrenizdir. Kuru Üzüm , doğal
+                        sirke, yumurta ,yoğurt, peynir , kayısı çekirdeği ,nohut bir ailenin olmazsa olmaz gıdasıdır.
+                        Sadece bu gıdalarla nesiller boyu tam sağlıklı bir yaşam sürdürebilirsiniz. Aşağıdaki örnek
+                        uygulamada traktör vb gibi teknoloji yatırımları yoktur. İhtiyaçda yoktur.
+                     </p>
+                     <div class="modal-split">
+                        <h1>ÖRNEK ÇİFTLİK HESAPLARI</h1>
+                        <p>
+                           Aşağıdaki tablo, ata tohumu sebze fidesinden hiç bir tarım zehiri ve kimyasal gübre
+                           kullanmayan ve bir fideden 4 kg sağlam, 1 kg hasarlı (çatlak vb) ürün elde edilebileceği
+                           hesabı üzerinden ve (Ayaş domatesinden yaklaşık 8 kg ürün alınır. Toprak sağlığı yerine
+                           geldikçe bu 13 Kg'a kadar çıkabilir.) Bir inekten 8 kg süt alan ve bir ineğe günde 12 kg yem
+                           verilme hesabı üzerinden yapılmıştır. Yemlere haftada 1 defa 2 kg azola bitkisi katkısı hem
+                           hayvanlarınızın sağlığını koruyacak hemde mineral takviyesi yapacaktır.Rasyo kontrollerini
+                           ayrıca yapabilirsiniz. Hesaplar sadece domates üzerinden yapılmıştır. Kilo ve ürün birim
+                           fiyatını çok düşük tuttuğumuz için, arazimizde 3 çeşit sebze olunca da rakamlar değişmeyecek
+                           hatta artacaktır. Ayaş domatesinin toptan satış fiyatınıda 0,80 krş olarak aldığımızda
+                           belirtmek isterim. Şayet ürün biber olsaydı üretilen kg düşecek ancak ürün fiyatı daha yüksek
+                           olacaktır. Dolayısıyla sonuç değişmeyecektir. Bir yerli ineğin günde 10 kg yeşil 2 kg kesif
+                           yem yediği varsayılmıştır. Bir yılda 11 inek 11x10x365 = yaklaşık 40 ton yeşil yem ihtiyacı
+                           vardır. Haşıl ile bu ihtiyaç 7 ton arpadan, toplam 42 ton yeşil yem ile elde edilecektir.
+                           Listeye dahil edilmeyen diğer küçükbaş ve kanatlı hayvanlar için de azolanın besin değerini
+                           lütfen araştırın. Bir yılda 11 inek 11x2 x365 = yaklaşık 8 ton kesif yem tüketecektir. Bu
+                           şekilde beslenen yerli ırk bir inekten günde 8 Lt süt elde edebilirsiniz ve bu sütten 1 kg
+                           kaşar üretebilirsiniz. Uygulamalarımızda bu sonucu 1 yıl boyunca kontrol ettik. Bizim
+                           uygulamalarımızda, 9 Lt. yerli ırk inek sütünden 1 kg katkısız kaşar/pişmiş peynir elde
+                           ettik. Ancak biz hesaplarımızda 10 Lt. Sütten sadece şirden mayası ile 1 kg Pişmiş peynir
+                           olarak kabul ettik. Tecrübeli çifçilerimiz çok daha iyi sonuçlar elde edebilirler. 1 ton
+                           arpadan çimlendirme/haşıl yöntemi ile 6 ton yeşil yem elde edilir. Bazı kaynaklarda bunun 11
+                           tona kadar da çıkabildiği anlatılır. Ancak biz tüm giderleri en yüksek seviyede gelirleri ise
+                           en alt seviyede tablo hazırlamaya karar verdik. Güncel rakamlarda arpa hasat zamanı satın
+                           alınıp depolanabilirse arpa fiyatı 0.90 krş civarındadır. Biz arpa fiyatını 1,25 olarak
+                           aldık. Aynı şekilde arpa ile birlikte yulaf çimlendirmede yapılabilir. Her ikisindede
+                           hayvanlarımızda çok olumlu sonuçlar aldık. Fide sıraları 1,5 metre aralıkla ve fide araları
+                           50 cm olarak düşünülmüştür. Arazinin çevresine ve fide aralarına tıbbi aromatik bitkilerden
+                           lavanta ve kekik ekilerek tarım zararlılarının bir kısmı uzaklaştırılabilmektedir. Diğer
+                           zararlılarla profosyonel tarımda doğal (zehirsiz) mücadele yöntemleri ayrı bir yazıda ele
+                           alınacaktır. Ancak bu konularda bilgi almak isteyen değerli zehirsiz tarım çiftçi adayları
+                           aşağıda paylaştığımız destek hattımızdan diledikleri zaman bizleri arayabilirler.
+                           Tercübelerimizi paylaşmak için herhangi bir ücret talebimiz hiç bir zaman olmamıştır. Bu
+                           çalışmalardan sonra görülecektir ki; 30 dönüm arazide çalışan çiftçimiz Ata tohumu sebze ve
+                           sadece yerli ırk inek besleyerek hem solucan gübresini kendisi üretti, hem de en zor
+                           şartlarda para kazandı ve ilk yıl tüm yatırım maliyetlerini karşıladı. İki kişilik aile
+                           işletmesinde kendilerine de, aylık 4000 tl olan başka bir işte çalışsaydı elde edeceği
+                           vazgeçme gelirini de dahil edince 28.000 TL civarında gelir elde etmiş oldu. Dolayısı ile,
+                           ilk yıl tüm yatırım giderlerini gelirleri ile karşılasalar en az(9000+4000) 13.000 TL aylık
+                           gelire sahip bir çiftçi ailemiz var. Ev kirası yok, gıda maliyeti yok denecek kadar az.
+                           İkinci yıl ise, yatırım maliyetleri olmadığı için çiftçimiz takriben aylık net 28.000 TL
+                           gelir elde edecektir. Sonuç olarak; çiftçilerimizin, Taylorcu, Friedmancı vahşi tarımın
+                           riskli tek tür ürün üretme alışkanlığından vazgeçerek; çeşitli ürün sunan BÜTÜNCÜL TARIM
+                           tekniği ile zehir, faiz ve patentli gdo sarmalından, vakit kaybetmeden kurtulması
+                           gerekmektedir. Burada olmaz gibi görünen, yani olmayacağına inandırıldığımız muhteşem gelirin
+                           elde edilmesindeki en önemli etken; ata tohumu, yerli ırk inek, haşıl/çimlendirme, taş suyu,
+                           katı/sıvı solucan gübresi ve ürün çeşitliliği entegrasyonudur. Çalışmalarımız; tamamen
+                           zehirsiz, en az nihai ürün, en yüksek maliyet hesaplarına göre yapılmıştır. Tecrübeli
+                           çiftçilerimiz çok daha verimli sonuçlar elde edeceklerdir. Özellikle halen kırsal kesimde
+                           yaşamını sürdüren çiftçilerimizin genelde ahırları ve birkaç büyükbaş hayvandan oluşan
+                           varlıkları vardır. Bütün bu hesaplarda, herhangi bir kooperatif katkısından tarım teşviği
+                           alan ya da ihracat yapan bir çiftçi söz konusu değildir. Tamamen iç piyasaya satış yapan bir
+                           çiftçi vardır ve bu çiftçi sayesinde kilosu 10 TL'ye katkısız doğal salça üretilmekte, süt
+                           yemi ve GDO'lu yem kullanmayan, doğal kaşarı /pişmiş peyniri üretip 50 TL'ye tüketiciye
+                           sunabilen bir çiftçi vardır. Arazi büyüklüğünü 15 dönüm olarak alırsanız, 2 kişi ile çalışan
+                           çiftçimiz tüm gelir ve giderleri yarıya inecektir. Bugün kırsalda yaşayan tüm çiftçilerimiz
+                           için 15 dönüm alanda tarım yapmak mümkündür. Dolayısı ile aslında kırsalda yaşam, kentteki
+                           yaşam standartlarının çok üzerindedir. 15 dönüm arazisi olan ve köyde kalan çiftçimiz, kira
+                           ve mutfak giderlerinden yaptığı tasarrufla zaten en kötü şartlarda bile yaklaşık olarak aylık
+                           8.000 TL geliri ile yaşam sürdürürken, çocukları ile başbaşa güzel ve huzurlu günler
+                           geçirecektir. Ayrıca, yazın 8 saat, kışın ise sadece 4 saat çalışacaktır. 15 dönüm arazisi
+                           olan/olabilecek değerli çiftçilerimiz, çiftçi adaylarımız kararınızı veriniz. Sabah 7'de
+                           servisle yola çıkıp akşam en erken saat 7'de evinize dönüp, 2 asgari ücret gelirine razı
+                           olup, birbirinizi ve çocuklarınızla günde 3 saat İLGİLENEMEDEN , geçireceğiniz ev kirasını
+                           zorlukla ödeyeceğiniz, her an işten atılma, ekonomik kriz vb sorunlarla karşılaşma riskiniz
+                           olan, çocuklarınızın ve eşinizin hava kirliliği ile zehirlendiği bir şehirde aylık 4.000
+                           TL'lik bir aile bütçesi mi istersiniz? Yoksa ;istediğiniz zaman çocuklarınızla
+                           ilgilenebileceğiniz, tertemiz havada, günlük taze yumurtalarınızı aldığınız ve
+                           zehirsiz/sağlıklı gıdalarla beslendiğiniz, insanlar için zehirsiz gıdalar ürettiğiniz, kira
+                           derdiniz olmayan,15 dönüm arazide aylık 9.000 TL geliriniz olan ZEHİRSİZ ve SAĞLIKLI BİR
+                           HAYAT MI? Tekrar hatırlatmakta yarar var. Yukarıdaki rakamlar en başarısız şartlar için ve
+                           yuvarlatılarak verilmiştir. Gerçek rakam 30 dönüm arazide tarım yapan bir çiftçi şehirde
+                           ödeyeceği kira ve gıda maliyeti de eklendiği zaman ayda yaklaşık 28.000 TL seviyesinde bir
+                           gelir standardı sağlamaktadır. Yeterli birikimi olanlar, size tarlada 8 saat çalışmak zor
+                           gelirse, arazinizde sürekli mesai yapacak bir aileye iş imkanı verebilirsiniz ve aylık
+                           yaklaşık 13 000 TL gelirle hiç tarlada çalışmadan, sadece tarlanızda gezerek tertemiz bir
+                           ortamda mı yaşamak istersiniz yoksa AVM ye, hastaneye ,postaneye yakın diye gürültülü ve
+                           kirli bir havası olan şehirlerde mi yaşayabilirsiniz. Tercih sizin. Sömürgeciyi ve onun
+                           dayattığı yok edici üretim ya da diğer bir deyişle tüketim çılgınlığını bırakıp, Dünya
+                           gezegenimize açtığımız savaştan vazgeçmemiz, umudu ile .. Lütfen aşağıdaki tabloyu iyi
+                           inceleyiniz. Son olarak, su toplama havuzundaki kolay kolay hasta olmayan, az oksijenli
+                           ortamlarda bile yaşayabilen MERSİN balıklarımızın 3 yıl sonraki gelirlerini hiç konuşmadık
+                           henüz. Onuda dolu yağarsa Tarım sigortasında sorun olursa, inekleri kurt kaparsa, domuz
+                           tarlaya dalarsa diyecek arkadaşlar için DOĞA sigortamız olarak kenarda bıraktığımız yanıtımız
+                           olsun. Bu arada peynir yapıyorduk ya o peynirin birde peynir altı suyu var biliyorsunuz. İşte
+                           o peynir altı suyu ile solucan gübresi ile karıştırıp bazı denemeler yapıyoruz. İyi ŞEYLER
+                           lacağını ümit ediyoruz Labaratuvar sonuçlarımız gelince keyifle paylaşacağız sonuçlarını :)
+                           Saygılarımızla
+                        </p>
+                     </div>
+                  </div>
+               </div>
+
+               <div class="modal-footer">
+                  <!--Nothing Goes Here but is needed! -->
+               </div>
+            </div>
+         </div>
+      </div>
+
+      <script
+         src="https://code.jquery.com/jquery-3.6.0.min.js"
+         integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+         crossorigin="anonymous"
+      ></script>
+      <script
+         src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+         integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+         crossorigin="anonymous"
+      ></script>
+      <script
+         src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+         crossorigin="anonymous"
+      ></script>
+      <script
+         src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js"
+         integrity="sha512-Y2IiVZeaBwXG1wSV7f13plqlmFOx8MdjuHyYFVoYzhyRr3nH/NMDjTBSswijzADdNzMyWNetbLMfOpIPl6Cv9g=="
+         crossorigin="anonymous"
+         referrerpolicy="no-referrer"
+      ></script>
+
+      <!-- Dynamic Year -->
+      <script>
+         //Get the current year for the copyright
+         $('#year').text(new Date().getFullYear());
+
+         // Configure Slider
+         $('.carousel').carousel({
+            interval: 4000,
+         });
+      </script>
+
+      <!-- LightBox -->
+      <script>
+         $(document).on('click', '[data-toggle="lightbox"]', function (event) {
+            event.preventDefault();
+            $(this).ekkoLightbox();
+         });
+      </script>
+
+      <!--  Video Play -->
+      <script>
+         $(function () {
+            // Auto play modal video
+            $('.video').click(function () {
+               var theModal = $(this).data('target'),
+                  videoSRC = $(this).attr('data-video'),
+                  videoSRCauto = videoSRC + '?modestbranding=1&rel=0&controls=0&showinfo=0&html5=1&autoplay=1';
+               $(theModal + ' iframe').attr('src', videoSRCauto);
+               $(theModal + ' button.close').click(function () {
+                  $(theModal + ' iframe').attr('src', videoSRC);
+               });
+            });
+         });
+      </script>
+
+      <!-- Smooth Scroll -->
+      <script>
+         $('body').scrollspy({ target: '#main-nav' });
+
+         // Add smooth scrolling
+         $('#main-nav a').on('click', function (e) {
+            // Check for a hash value
+            if (this.hash !== '') {
+               // Prevent default behavior
+               e.preventDefault();
+
+               // Store hash
+               const hash = this.hash;
+
+               // Animate smooth scroll
+               $('html, body').animate(
+                  {
+                     scrollTop: $(hash).offset().top,
+                  },
+                  900,
+                  function () {
+                     // Add hash to URL after scroll
+                     window.location.hash = hash;
+                  }
+               );
+            }
+         });
+      </script>
+
+      <!-- Multipage Modal -->
+      <script>
+         $(document).ready(function () {
+            prep_modal();
+         });
+
+         function prep_modal() {
+            $('.modal').each(function () {
+               var element = this;
+               var pages = $(this).find('.modal-split');
+
+               if (pages.length != 0) {
+                  pages.hide();
+                  pages.eq(0).show();
+
+                  var b_button = document.createElement('button');
+                  b_button.setAttribute('type', 'button');
+                  b_button.setAttribute('class', 'btn btn-primary');
+                  b_button.setAttribute('style', 'display: none;');
+                  b_button.innerHTML = 'Back';
+
+                  var n_button = document.createElement('button');
+                  n_button.setAttribute('type', 'button');
+                  n_button.setAttribute('class', 'btn btn-primary');
+                  n_button.innerHTML = 'Next';
+
+                  $(this).find('.modal-footer').append(b_button).append(n_button);
+
+                  var page_track = 0;
+
+                  $(n_button).click(function () {
+                     this.blur();
+
+                     if (page_track == 0) {
+                        $(b_button).show();
+                     }
+
+                     if (page_track == pages.length - 2) {
+                        $(n_button).text('Submit');
+                     }
+
+                     if (page_track == pages.length - 1) {
+                        $(element).find('form').submit();
+                     }
+
+                     if (page_track < pages.length - 1) {
+                        page_track++;
+
+                        pages.hide();
+                        pages.eq(page_track).show();
+                     }
+                  });
+
+                  $(b_button).click(function () {
+                     if (page_track == 1) {
+                        $(b_button).hide();
+                     }
+
+                     if (page_track == pages.length - 1) {
+                        $(n_button).text('Next');
+                     }
+
+                     if (page_track > 0) {
+                        page_track--;
+
+                        pages.hide();
+                        pages.eq(page_track).show();
+                     }
+                  });
+               }
+            });
+         }
+      </script>
+   </body>
+</html>
